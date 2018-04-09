@@ -21,8 +21,11 @@ GameObject:
   - component: {fileID: 4734713064693296}
   - component: {fileID: 33996018708737966}
   - component: {fileID: 23529076258994968}
-  - component: {fileID: 114072147662748586}
   - component: {fileID: 65580427040060284}
+  - component: {fileID: 114388018515616040}
+  - component: {fileID: 114700467621644274}
+  - component: {fileID: 114664644186949384}
+  - component: {fileID: 114427950982958508}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Tile
@@ -96,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114072147662748586
+--- !u!114 &114388018515616040
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -104,10 +107,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 1033190841131970}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b392b228ec417b542acbc58f46a33dca, type: 3}
+  m_Script: {fileID: 11500000, guid: 688146acffead0143b14c1edfcd645c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightSource: {fileID: 1969002151394700, guid: 05004bf980057fa4e869e22cdd6d27f1,
+--- !u!114 &114427950982958508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1033190841131970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7be78f0e8855f54da1319f0a68a6d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114664644186949384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1033190841131970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609bcac05a44ec348b1c1b29638f2cf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  APCostFlat: 13
+--- !u!114 &114700467621644274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1033190841131970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbab8675a05f1e645a265086867a4fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightSelectSource: {fileID: 1969002151394700, guid: 05004bf980057fa4e869e22cdd6d27f1,
     type: 2}
-  lightBox: {fileID: 1607439175305726, guid: 074cfed1a4a109d4195c669586469265, type: 2}
-  lightDistance: 0.5
+  lightPathSource: {fileID: 1617634118759210, guid: 325e1d7b21815be42ac0f8ef8b340484,
+    type: 2}
+  lightDistance: 0.27
