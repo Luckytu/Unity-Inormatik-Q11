@@ -19,8 +19,6 @@ public class GameManagerBase : MonoBehaviour
         setTiles();
         setTileInitializer();
         setTilePathFinder();
-
-        print(tilePathFinder.Length);
     }
 
     protected void getDataFromBase()

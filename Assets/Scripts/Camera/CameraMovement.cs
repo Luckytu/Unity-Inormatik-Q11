@@ -88,6 +88,11 @@ public class CameraMovement : MonoBehaviour
         }
 
         cameraTransform.Translate(movement * Time.deltaTime);
+
+        if (Input.GetAxis("Mouse ScrollWheel") != 0f)
+        {
+            cameraProperties.orthographicSize -= Input.GetAxis("Mouse ScrollWheel");
+        }
     }
 
     private void rotateInitialize(bool clockWise)

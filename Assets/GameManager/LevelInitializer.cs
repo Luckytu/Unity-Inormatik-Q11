@@ -12,8 +12,11 @@ public class LevelInitializer : GameManagerBase
 
     public GameObject originalTile;
 
-    private int maxX = 10;
-    private int maxY = 10;
+    [Range(5, 50)]
+    public int maxX = 10;
+
+    [Range(5, 50)]
+    public int maxY = 10;
 
     private void Awake()
     {
@@ -21,15 +24,13 @@ public class LevelInitializer : GameManagerBase
         setTilesData();
 
         setDataInBase();
-
-        print(tilePathFinder.Length);
     }
 
     protected void mapHeightsInitialize()
     {
         mapHeights1D = new float[maxX * maxY];
 
-        mapHeights = new float[10, 10];
+        mapHeights = new float[maxX, maxY];
 
         for (int i = 0; i < maxX; i++)
         {
@@ -58,8 +59,6 @@ public class LevelInitializer : GameManagerBase
         {
             tileInitializer[i] = tiles[i].GetComponent<TileInitializer>();
             tilePathFinder[i] = tiles[i].GetComponent<TilePathFinder>();
-
-            print(tilePathFinder[i].APCostFlat);
         }
 
         for (int i = 0; i < tiles.Length; i++)
