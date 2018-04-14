@@ -19,7 +19,7 @@ public class TileInitializer : TileBase
     public void setHeight(float height)
     {
         tileTransform.localScale = new Vector3(1, height, 1);
-        tileTransform.position += new Vector3(0, (height / 2 - 0.5f), 0);
+        tileTransform.position += new Vector3(0, (height / 2), 0); //bei problemen o,5f von der höhe.y abziehen
         this.height = height;
     }
 

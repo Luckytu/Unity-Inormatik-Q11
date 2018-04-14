@@ -34,7 +34,7 @@ public class GameManagerBase : MonoBehaviour
     protected void setTileInitializer() { gameManagerBase.tileInitializer = tileInitializer; }
     protected void setTilePathFinder() { gameManagerBase.tilePathFinder = tilePathFinder; }
 
-    protected GameObject[] getTiles() { return tiles; }
+    public GameObject[] getTiles() { return tiles; }
     protected TileInitializer[] getTileInitializer() { return tileInitializer; }
     protected TilePathFinder[] getTilePathFinder() { return tilePathFinder; }
 }

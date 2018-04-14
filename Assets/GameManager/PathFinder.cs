@@ -8,6 +8,9 @@ public class PathFinder : GameManagerBase
 {
     private List<TilePathFinder> priorityList;
 
+    private bool pathUnMarkAble = false;
+    private bool pathSelected = false;
+
     private void Start()
     {
         getDataFromBase();
@@ -15,9 +18,25 @@ public class PathFinder : GameManagerBase
         findPath(0);
     }
 
+    private void Update()
+    {
+        if(pathUnMarkAble && Input.GetMouseButtonDown(0))
+        {
+            unMarkPath();
+            prepareList();
+
+            pathSelected = false;
+            pathUnMarkAble = false;
+        }
+
+        if(pathSelected)
+        {
+            pathUnMarkAble = true;
+        }
+    }
+
     public void findPath(int startID)
     {
-        int previousListCount = 0;
         int currentMinValue;
 
         prepareList(startID);
@@ -26,10 +45,8 @@ public class PathFinder : GameManagerBase
         {
             currentMinValue = findMinValue();
             
-            if ((previousListCount != priorityList.Count) && (priorityList[currentMinValue].hasNeighboursAndValueNotMax()))
+            if (priorityList[currentMinValue].getValue() != int.MaxValue)
             {
-                previousListCount = priorityList.Count;
-
                 priorityList[currentMinValue].updateAdjacentTiles();
 
                 priorityList.RemoveAt(currentMinValue);
@@ -54,6 +71,17 @@ public class PathFinder : GameManagerBase
         priorityList[startID].setValue(0);
     }
 
+    public void prepareList()
+    {
+        priorityList = new List<TilePathFinder>(tilePathFinder);
+
+        for (int i = 0; i < priorityList.Count; i++)
+        {
+            priorityList[i].setValue(int.MaxValue);
+            priorityList[i].setPreviousTile(null);
+        }
+    }
+
     private int findMinValue()
     {
         int min = int.MaxValue;
@@ -70,4 +98,16 @@ public class PathFinder : GameManagerBase
 
         return minPos;
     }
+
+    public void unMarkPath()
+    {
+        GameObject[] pathLights = GameObject.FindGameObjectsWithTag("TileLightSelect");
+        for (int i = 0; i < pathLights.Length; i++)
+        {
+            GameObject.Destroy(pathLights[i]);
+        }
+    }
+
+    public bool isPathSelected() { return pathSelected; }
+    public void setPathSelected(bool pathSelected) { this.pathSelected = pathSelected; }
 }

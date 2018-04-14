@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TilePathFinder : TileBase {
 
-    private GameObject previousTile;
+    public GameObject previousTile;
     private int value;
 
     public int APCostFlat;
@@ -62,11 +62,6 @@ public class TilePathFinder : TileBase {
                 }
             }
         }
-    }
-
-    public bool hasNeighboursAndValueNotMax()
-    {
-        return ((adjacentTiles != null) && (value != int.MaxValue));
     }
 
     public GameObject getPreviousTile() { return previousTile; }

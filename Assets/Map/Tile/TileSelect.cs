@@ -11,8 +11,6 @@ public class TileSelect : TileBase {
     public GameObject lightPathSource;
     public float lightDistance;
 
-    private bool pathChosen = false;
-
     // Use this for initialization
     void Start ()
     {
@@ -32,15 +30,10 @@ public class TileSelect : TileBase {
 
     private void OnMouseDown()
     {
-        if(!pathChosen)
+        if(!pathFinder.isPathSelected())
         {
             pathFinder.findPath(tileID);
-            pathChosen = true;
-        }
-        else
-        {
-            pathFinder.prepareList(tileID);
-            pathChosen = false;
+            pathFinder.setPathSelected(true);
         }
     }
 
@@ -74,11 +67,7 @@ public class TileSelect : TileBase {
     {
         GameObject.Destroy(GameObject.FindGameObjectWithTag("TileLight"));
 
-        GameObject[] pathLights = GameObject.FindGameObjectsWithTag("TileLightSelect");
-        for(int i = 0; i < pathLights.Length; i++)
-        {
-            GameObject.Destroy(pathLights[i]);
-        }
+        pathFinder.unMarkPath();
     }
 
 
