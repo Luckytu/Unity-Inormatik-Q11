@@ -28,14 +28,6 @@ public class TileSelect : TileBase {
 		
 	}
 
-    private void OnMouseDown()
-    {
-        if(!pathFinder.isPathSelected())
-        {
-            pathFinder.findPath(tileID);
-            pathFinder.setPathSelected(true);
-        }
-    }
 
     private void markTileOnPath()
     {
@@ -50,6 +42,16 @@ public class TileSelect : TileBase {
         }
     }
 
+    private void addTileToPath()
+    {
+        pathFinder.addTileToPath(this);
+
+        if (tilePathFinder.getPreviousTile() != null)
+        {
+            tilePathFinder.getPreviousTile().GetComponent<TileSelect>().addTileToPath();
+        }
+    }
+
     private void OnMouseEnter()
     {
         Quaternion newQuaternion = new Quaternion();
@@ -59,7 +61,8 @@ public class TileSelect : TileBase {
 
         if(tilePathFinder.getPreviousTile() != null)
         {
-            tilePathFinder.getPreviousTile().GetComponent<TileSelect>().markTileOnPath();
+            markTileOnPath();
+            addTileToPath();
         }
     }
 
@@ -68,6 +71,7 @@ public class TileSelect : TileBase {
         GameObject.Destroy(GameObject.FindGameObjectWithTag("TileLight"));
 
         pathFinder.unMarkPath();
+        pathFinder.clearPath();
     }
 
 

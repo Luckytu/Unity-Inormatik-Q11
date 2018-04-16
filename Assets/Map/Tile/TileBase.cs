@@ -63,8 +63,8 @@ public class TileBase : MonoBehaviour {
 
     protected GameObject[] getAdjacentTiles() { return adjacentTiles; }
     protected TilePathFinder[] getAdjacentTilePathFinder() { return adjacentTilePathFinder; }
-    protected int getTileID() { return tileID; }
 
+    public int getTileID() { return tileID; }
     public float getHeight() { return height; }
     public int getX() { return x; }
     public int getZ() { return z; }

@@ -7,6 +7,7 @@ using System.Linq;
 public class PathFinder : GameManagerBase
 {
     private List<TilePathFinder> priorityList;
+    private Stack<TileSelect> path;
 
     private bool pathUnMarkAble = false;
     private bool pathSelected = false;
@@ -16,6 +17,8 @@ public class PathFinder : GameManagerBase
         getDataFromBase();
 
         findPath(0);
+
+        path = new Stack<TileSelect>();
     }
 
     private void Update()
@@ -24,6 +27,7 @@ public class PathFinder : GameManagerBase
         {
             unMarkPath();
             prepareList();
+            clearPath();
 
             pathSelected = false;
             pathUnMarkAble = false;
@@ -107,6 +111,10 @@ public class PathFinder : GameManagerBase
             GameObject.Destroy(pathLights[i]);
         }
     }
+
+    public void addTileToPath(TileSelect tile) { path.Push(tile); }
+    public Stack<TileSelect> getPath() { return path; }
+    public void clearPath() { path.Clear(); }
 
     public bool isPathSelected() { return pathSelected; }
     public void setPathSelected(bool pathSelected) { this.pathSelected = pathSelected; }

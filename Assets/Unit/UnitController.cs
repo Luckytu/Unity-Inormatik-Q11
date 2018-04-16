@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class UnitController : MonoBehaviour
 {
+    public float timeToMove;
+
     private GameObject[] tiles;
-    public GameObject currentTile;
+    public TileSelect currentTile;
+
+    private PathFinder pathFinder;
 
     private int x;
     private int z;
+
+    private bool stillMoving;
 
 	// Use this for initialization
 	void Start ()
     {
         tiles = GameObject.Find("GameManager").GetComponent<GameManagerBase>().getTiles();
+        pathFinder = GameObject.Find("GameManager").GetComponent<PathFinder>();
 
         findCurrentPosition();
         findCurrentTile();
@@ -32,7 +39,7 @@ public class UnitController : MonoBehaviour
         {
             if((x == tiles[i].GetComponent<TileBase>().getX()) && (z == tiles[i].GetComponent<TileBase>().getZ()))
             {
-                currentTile = tiles[i];
+                currentTile = tiles[i].GetComponent<TileSelect>();
                 break;
             }
         }
@@ -47,5 +54,29 @@ public class UnitController : MonoBehaviour
     private void setUnitHeight()
     {
         transform.position = new Vector3(transform.position.x, currentTile.GetComponent<TileBase>().getHeight(), transform.position.z);
+    }
+
+    public void findPath()
+    {
+        if (!pathFinder.isPathSelected())
+        {
+            pathFinder.findPath(currentTile.getTileID());
+            pathFinder.setPathSelected(true);
+        }
+    }
+
+    private void moveToTile(TileSelect nextTile) 
+    {
+        stillMoving = true;
+        float timePassed = 0;
+
+        Vector3 currentPos = currentTile.transform.position;
+        Vector3 nextPos = nextTile.transform.position;
+
+        Vector3 movement = nextPos - currentPos;
+        movement.y = 0;
+        movement *= Time.deltaTime;
+
+        transform.Translate(movement);
     }
 }
