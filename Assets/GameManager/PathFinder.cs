@@ -9,7 +9,9 @@ public class PathFinder : GameManagerBase
     private List<TilePathFinder> priorityList;
     private Stack<TileSelect> path;
 
-    private bool pathUnMarkAble = false;
+    private UnitController markedUnit;
+
+    private bool pathResetable = false;
     private bool pathSelected = false;
 
     private void Start()
@@ -23,19 +25,14 @@ public class PathFinder : GameManagerBase
 
     private void Update()
     {
-        if(pathUnMarkAble && Input.GetMouseButtonDown(0))
+        if(pathResetable && Input.GetMouseButtonDown(0))
         {
-            unMarkPath();
-            prepareList();
-            clearPath();
-
-            pathSelected = false;
-            pathUnMarkAble = false;
+            resetPath();
         }
 
         if(pathSelected)
         {
-            pathUnMarkAble = true;
+            pathResetable = true;
         }
     }
 
@@ -111,6 +108,19 @@ public class PathFinder : GameManagerBase
             GameObject.Destroy(pathLights[i]);
         }
     }
+
+    public void resetPath()
+    {
+        unMarkPath();
+        prepareList();
+        clearPath();
+
+        pathSelected = false;
+        pathResetable = false;
+    }
+
+    public void markUnit(UnitController markedUnit) { this.markedUnit = markedUnit; }
+    public UnitController getMarkedUnit() { return markedUnit; }
 
     public void addTileToPath(TileSelect tile) { path.Push(tile); }
     public Stack<TileSelect> getPath() { return path; }

@@ -17,7 +17,7 @@ public class UnitHitBoxConroller : MonoBehaviour {
         unitController = GetComponentInParent<UnitController>();
     }
 
-    void LateUpdate()
+    void Update()
     {
         transform.rotation = rotation;
     }
@@ -30,6 +30,7 @@ public class UnitHitBoxConroller : MonoBehaviour {
 
     private void OnMouseDown()
     {
+        unitController.markThisUnit();
         unitController.findPath();
     }
 }

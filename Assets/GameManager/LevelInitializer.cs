@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 using System.Linq;
+
 
 public class LevelInitializer : GameManagerBase
 {
@@ -11,6 +13,10 @@ public class LevelInitializer : GameManagerBase
     private float[] mapHeights1D;
 
     public GameObject originalTile;
+
+    public GameObject originalUnit;
+
+    public int units;
 
     [Range(5, 50)]
     public int maxX = 10;
@@ -23,10 +29,12 @@ public class LevelInitializer : GameManagerBase
         mapHeightsInitialize();
         setTilesData();
 
+        unitsInitialize();
+
         setDataInBase();
     }
 
-    protected void mapHeightsInitialize()
+    private void mapHeightsInitialize()
     {
         mapHeights1D = new float[maxX * maxY];
 
@@ -36,7 +44,7 @@ public class LevelInitializer : GameManagerBase
         {
             for (int k = 0; k < maxY; k++)
             {
-                mapHeights[i,k] = Random.Range(0, 5);
+                mapHeights[i,k] = UnityEngine.Random.Range(0, 5);
 
                 if (mapHeights[i, k] > 0)
                 {
@@ -53,7 +61,7 @@ public class LevelInitializer : GameManagerBase
         mapHeights1DCleaned = mapHeights1D.Where(val => val != 0).ToArray();
     }
 
-    protected void setTilesData()
+    private void setTilesData()
     {
         for (int i = 0; i < tiles.Length; i++)
         {
@@ -117,5 +125,14 @@ public class LevelInitializer : GameManagerBase
                     break;
             }
         }
+    }
+
+    private void unitsInitialize()
+    {
+        GameObject.Instantiate(originalUnit, tiles[0].transform.position, new Quaternion());
+        GameObject.Instantiate(originalUnit, tiles[1].transform.position, new Quaternion());
+        GameObject.Instantiate(originalUnit, tiles[3].transform.position, new Quaternion());
+        GameObject.Instantiate(originalUnit, tiles[5].transform.position, new Quaternion());
+        GameObject.Instantiate(originalUnit, tiles[78].transform.position, new Quaternion());
     }
 }

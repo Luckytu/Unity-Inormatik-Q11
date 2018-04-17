@@ -25,8 +25,11 @@ public class TileSelect : TileBase {
 	// Update is called once per frame
 	void Update ()
     {
-		
-	}
+        if (Input.GetMouseButtonDown(1) && !pathFinder.getMarkedUnit().isStillMoving())
+        {
+            StartCoroutine(pathFinder.getMarkedUnit().moveUnit());
+        }
+    }
 
 
     private void markTileOnPath()

@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using System.Linq;
+
 public class UnitController : MonoBehaviour
 {
     public float timeToMove;
+    private bool stillMoving;
 
     private GameObject[] tiles;
     public TileSelect currentTile;
@@ -14,7 +17,7 @@ public class UnitController : MonoBehaviour
     private int x;
     private int z;
 
-    private bool stillMoving;
+    public int unitID;
 
 	// Use this for initialization
 	void Start ()
@@ -65,18 +68,59 @@ public class UnitController : MonoBehaviour
         }
     }
 
-    private void moveToTile(TileSelect nextTile) 
+    public void markThisUnit()
+    {
+        pathFinder.markUnit(this);
+    }
+
+    public IEnumerator moveUnit()
     {
         stillMoving = true;
+        Stack <TileSelect> path = new Stack <TileSelect> (pathFinder.getPath().Reverse());
+
+        pathFinder.resetPath();
+
+        for (int i = path.Count; i > 0; i--)
+        {
+            yield return StartCoroutine(moveToNextTile(path.Pop()));
+        }
+
+        stillMoving = false;
+    }
+
+    private IEnumerator moveToNextTile(TileSelect nextTile)
+    {
         float timePassed = 0;
 
         Vector3 currentPos = currentTile.transform.position;
+        currentPos.y = currentTile.getHeight();
+
         Vector3 nextPos = nextTile.transform.position;
+        nextPos.y = currentTile.getHeight();
 
-        Vector3 movement = nextPos - currentPos;
-        movement.y = 0;
-        movement *= Time.deltaTime;
+        Vector3 pathToNext = nextPos - currentPos;
 
-        transform.Translate(movement);
+        while (timePassed <= timeToMove)
+        {
+            Vector3 newPos = currentPos + pathToNext * (timePassed / timeToMove);
+
+            if(timePassed >= timeToMove / 2)
+            {
+                newPos.y = nextTile.getHeight();
+            }
+
+            transform.position = newPos;
+
+            yield return null;
+
+            timePassed += Time.deltaTime;
+        }
+
+        nextPos.y = nextTile.getHeight();
+        transform.position = nextPos;
+        
+        currentTile = nextTile;
     }
+
+    public bool isStillMoving() { return stillMoving; }
 }
