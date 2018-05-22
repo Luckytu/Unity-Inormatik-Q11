@@ -132,7 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 609bcac05a44ec348b1c1b29638f2cf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APCostFlat: 13
+  previousTile: {fileID: 0}
+  APCostFlat: 2
 --- !u!114 &114700467621644274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,8 +145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbab8675a05f1e645a265086867a4fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightSelectSource: {fileID: 1969002151394700, guid: 05004bf980057fa4e869e22cdd6d27f1,
+  lightSelectSource: {fileID: 1738627398117848, guid: 2952ad591e5ccaf42b9ca73e761acd6a,
     type: 2}
-  lightPathSource: {fileID: 1617634118759210, guid: 325e1d7b21815be42ac0f8ef8b340484,
+  lightPathSource: {fileID: 1641242034187468, guid: c05d2a1dd256d8e4bb1f79855f22eccb,
     type: 2}
   lightDistance: 0.27

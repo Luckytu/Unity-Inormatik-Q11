@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 129827716}
   - component: {fileID: 129827718}
   - component: {fileID: 129827719}
+  - component: {fileID: 129827720}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -179,11 +180,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalTile: {fileID: 1033190841131970, guid: 9588c3e43c538414786f9e9a0e1e9182,
     type: 2}
-  originalUnit: {fileID: 1881155199868618, guid: 97153adda7526cc45bfe7e6e2e7229bf,
+  originalUnit: {fileID: 1738113017595092, guid: 97153adda7526cc45bfe7e6e2e7229bf,
     type: 2}
   units: 7
   maxX: 50
   maxY: 50
+--- !u!114 &129827720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129827715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4efe8c66b35e3ec4d8efeae00f8bf0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &741426192
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraProperties: {fileID: 1973105129}
   fieldOfView: 4.39
+  maxFieldOfView: 8
+  minFieldOfView: 1
   height: 10
   speed: 6.9
   rotationSteps: 8
@@ -325,7 +339,7 @@ Camera:
   m_GameObject: {fileID: 1973105128}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2

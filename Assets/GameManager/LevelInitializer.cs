@@ -45,6 +45,10 @@ public class LevelInitializer : GameManagerBase
             for (int k = 0; k < maxY; k++)
             {
                 mapHeights[i,k] = UnityEngine.Random.Range(0, 5);
+                if(mapHeights[i,k] < 1f)
+                {
+                    mapHeights[i, k] = 0f;
+                }
 
                 if (mapHeights[i, k] > 0)
                 {

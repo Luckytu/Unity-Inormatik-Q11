@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TilePathFinder : TileBase {
-
+    
     public GameObject previousTile;
     private int value;
 
@@ -15,23 +15,30 @@ public class TilePathFinder : TileBase {
         getDataFromBase();
 	}
 
-    public int getAPCost(int adjacentTileID)
+    public int getAPCost(int adjacentTileID, float maxHeight)
     {
         float heightDifference = height - adjacentTilePathFinder[globalToLocalID(adjacentTileID)].height;
 
-        if (heightDifference == 0)
+        if (heightDifference > maxHeight)
         {
-            return APCostFlat;
+            return int.MaxValue;
         }
         else
         {
-            if (heightDifference > 0)
+            if (heightDifference == 0)
             {
-                return (int)(heightDifference * 3);
+                return APCostFlat;
             }
             else
             {
-                return (int)(heightDifference * -2);
+                if (heightDifference > 0)
+                {
+                    return (int)(heightDifference * 3);
+                }
+                else
+                {
+                    return (int)(heightDifference * -2);
+                }
             }
         }
     }
@@ -49,15 +56,17 @@ public class TilePathFinder : TileBase {
         return 0;
     }
 
-    public void updateAdjacentTiles()
+    public void updateAdjacentTiles(float maxHeight)
     {
         if (adjacentTilePathFinder != null)
         {
             for (int i = 0; i < adjacentTilePathFinder.Length; i++)
             {
-                if (adjacentTilePathFinder[i].getValue() > value + adjacentTilePathFinder[i].getAPCost(tileID))
+                int apCost = getAPCost(adjacentTilePathFinder[i].getTileID(), maxHeight);
+
+                if ((adjacentTilePathFinder[i].getValue() > value + apCost) && (apCost != int.MaxValue))
                 {
-                    adjacentTilePathFinder[i].setValue(value + adjacentTilePathFinder[i].getAPCost(tileID));
+                    adjacentTilePathFinder[i].setValue(value + apCost);
                     adjacentTilePathFinder[i].setPreviousTile(gameObject);
                 }
             }

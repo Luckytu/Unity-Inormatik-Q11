@@ -11,6 +11,9 @@ public class CameraMovement : MonoBehaviour
     public Camera cameraProperties;
 
     public float fieldOfView;
+    public float maxFieldOfView;
+    public float minFieldOfView;
+
     public float height;
     public float speed;
 
@@ -24,6 +27,7 @@ public class CameraMovement : MonoBehaviour
     public float rotationDistance;
     public float rotationDuration;
 
+    private bool rotating = false;
 
     // Use this for initialization
     void Start()
@@ -89,9 +93,19 @@ public class CameraMovement : MonoBehaviour
 
         cameraTransform.Translate(movement * Time.deltaTime);
 
-        if (Input.GetAxis("Mouse ScrollWheel") != 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") != 0f && cameraProperties.orthographicSize >= minFieldOfView && cameraProperties.orthographicSize <= maxFieldOfView)
         {
             cameraProperties.orthographicSize -= Input.GetAxis("Mouse ScrollWheel");
+        }
+
+        if(cameraProperties.orthographicSize < minFieldOfView)
+        {
+            cameraProperties.orthographicSize = minFieldOfView;
+        }
+
+        if (cameraProperties.orthographicSize > maxFieldOfView)
+        {
+            cameraProperties.orthographicSize = maxFieldOfView;
         }
     }
 
@@ -100,7 +114,11 @@ public class CameraMovement : MonoBehaviour
         Quaternion start = cameraTransform.rotation;
         Quaternion end = clockWise? Quaternion.Euler(0, start.eulerAngles.y + rotationAngleY, 0) : Quaternion.Euler(0, start.eulerAngles.y - rotationAngleY, 0);
         
-        StartCoroutine(rotate(start, end));
+        if(!rotating)
+        {
+            rotating = true;
+            StartCoroutine(rotate(start, end));
+        }
     }
 
     private IEnumerator rotate(Quaternion start, Quaternion end)
@@ -114,6 +132,7 @@ public class CameraMovement : MonoBehaviour
             timePassed += Time.deltaTime;
         }
 
+        rotating = false;
         cameraTransform.rotation = end;
     }
 }

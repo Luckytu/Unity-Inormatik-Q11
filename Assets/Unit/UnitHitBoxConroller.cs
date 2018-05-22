@@ -7,14 +7,14 @@ public class UnitHitBoxConroller : MonoBehaviour {
     private Quaternion rotation;
     
     private BoxCollider boxCollider;
-    private UnitController unitController;
+    private UnitMovement unitMovement;
 
     void Awake()
     {
         rotation = transform.rotation;
 
         boxCollider = GetComponent<BoxCollider>();
-        unitController = GetComponentInParent<UnitController>();
+        unitMovement = GetComponentInParent<UnitMovement>();
     }
 
     void Update()
@@ -30,7 +30,7 @@ public class UnitHitBoxConroller : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        unitController.markThisUnit();
-        unitController.findPath();
+        unitMovement.markThisUnit();
+        unitMovement.findPath();
     }
 }

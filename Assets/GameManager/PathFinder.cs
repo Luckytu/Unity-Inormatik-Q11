@@ -7,48 +7,33 @@ using System.Linq;
 public class PathFinder : GameManagerBase
 {
     private List<TilePathFinder> priorityList;
-    private Stack<TileSelect> path;
+    private List<TileSelect> pathList;
+    private Stack<TileSelect> pathStack;
 
-    private UnitController markedUnit;
-
-    private bool pathResetable = false;
-    private bool pathSelected = false;
+    private InputManager inputManager;
 
     private void Start()
     {
         getDataFromBase();
 
-        findPath(0);
+        pathList = new List<TileSelect>();
 
-        path = new Stack<TileSelect>();
+        inputManager = GetComponent<InputManager>();
     }
 
-    private void Update()
-    {
-        if(pathResetable && Input.GetMouseButtonDown(0))
-        {
-            resetPath();
-        }
-
-        if(pathSelected)
-        {
-            pathResetable = true;
-        }
-    }
-
-    public void findPath(int startID)
+    public void findPath(int startID, float maxHeight)
     {
         int currentMinValue;
 
         prepareList(startID);
-
+        
         while(priorityList.Count > 0)
         {
             currentMinValue = findMinValue();
             
             if (priorityList[currentMinValue].getValue() != int.MaxValue)
             {
-                priorityList[currentMinValue].updateAdjacentTiles();
+                priorityList[currentMinValue].updateAdjacentTiles(maxHeight);
 
                 priorityList.RemoveAt(currentMinValue);
             }
@@ -115,17 +100,31 @@ public class PathFinder : GameManagerBase
         prepareList();
         clearPath();
 
-        pathSelected = false;
-        pathResetable = false;
+        inputManager.setPathSelected(false);
+        inputManager.setPathResetable(false);
+        inputManager.setFirstTileSelected(false);
     }
 
-    public void markUnit(UnitController markedUnit) { this.markedUnit = markedUnit; }
-    public UnitController getMarkedUnit() { return markedUnit; }
+    public void addTileToPath(TileSelect tile)
+    {
+        pathList.Add(tile);
 
-    public void addTileToPath(TileSelect tile) { path.Push(tile); }
-    public Stack<TileSelect> getPath() { return path; }
-    public void clearPath() { path.Clear(); }
+        if (!inputManager.isFirstTileSelected())
+        {
+            inputManager.setTargetTile(tile);
+            inputManager.setFirstTileSelected(true);
+            inputManager.getTargetTile().setTileOccupied(true);
+        }
+    }
 
-    public bool isPathSelected() { return pathSelected; }
-    public void setPathSelected(bool pathSelected) { this.pathSelected = pathSelected; }
+    public Stack<TileSelect> getPath()
+    {
+        pathList.RemoveAt(pathList.Count - 1);
+
+        pathStack = new Stack<TileSelect>(pathList);
+
+        return pathStack;
+    }
+
+    public void clearPath() { pathList.Clear(); }
 }

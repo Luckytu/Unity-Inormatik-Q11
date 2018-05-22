@@ -14,7 +14,7 @@ public class TileBase : MonoBehaviour {
 
     protected int x;
     protected int z;
-    protected int tileID;
+    public int tileID;
     protected float height;
 
     // Use this for initialization
