@@ -1,0 +1,2437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-05-25T14:15:08.661+02:00
+  initializedAtString: 2018-05-25T14:13:41.108+02:00
+  log:
+  - commitID: 0423e9da74223cd7b030e6aec882b5309c684e5c
+    mergeA: 
+    mergeB: 
+    authorName: Tomahawkist
+    authorEmail: 37774480+Tomahawkist@users.noreply.github.com
+    commitEmail: 37774480+Tomahawkist@users.noreply.github.com
+    commitName: Tomahawkist
+    summary: commit 1 thomas
+    description: commit 1 thomas
+    timeString: 2018-05-25T14:15:07.000+02:00
+    commitTimeString: 2018-05-25T14:15:07.000+02:00
+    changes:
+    - path: .vscode\settings.json
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards.meta
+      projectPath: Assets\Cards.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards\Armour.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards\Armour.cs
+      projectPath: Assets\Cards\Armour.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards\Armour.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards\Armour.cs.meta
+      projectPath: Assets\Cards\Armour.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards\Card.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards\Card.cs
+      projectPath: Assets\Cards\Card.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards\Card.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards\Card.cs.meta
+      projectPath: Assets\Cards\Card.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards\Gun.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards\Gun.cs
+      projectPath: Assets\Cards\Gun.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Cards\Gun.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Cards\Gun.cs.meta
+      projectPath: Assets\Cards\Gun.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager.meta
+      projectPath: Assets\GameManager.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\GameManagerBase.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\GameManagerBase.cs
+      projectPath: Assets\GameManager\GameManagerBase.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\GameManagerBase.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\GameManagerBase.cs.meta
+      projectPath: Assets\GameManager\GameManagerBase.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\InputManager.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\InputManager.cs
+      projectPath: Assets\GameManager\InputManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\InputManager.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\InputManager.cs.meta
+      projectPath: Assets\GameManager\InputManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\LevelInitializer.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\LevelInitializer.cs
+      projectPath: Assets\GameManager\LevelInitializer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\LevelInitializer.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\LevelInitializer.cs.meta
+      projectPath: Assets\GameManager\LevelInitializer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\PathFinder.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\PathFinder.cs
+      projectPath: Assets\GameManager\PathFinder.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\PathFinder.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\PathFinder.cs.meta
+      projectPath: Assets\GameManager\PathFinder.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\TurnManager.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\TurnManager.cs
+      projectPath: Assets\GameManager\TurnManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\TurnManager.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\TurnManager.cs.meta
+      projectPath: Assets\GameManager\TurnManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\UnitSpawnInfo.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\UnitSpawnInfo.cs
+      projectPath: Assets\GameManager\UnitSpawnInfo.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\GameManager\UnitSpawnInfo.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\GameManager\UnitSpawnInfo.cs.meta
+      projectPath: Assets\GameManager\UnitSpawnInfo.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Level.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Level.meta
+      projectPath: Assets\Level.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Level\level1.unity
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Level\level1.unity
+      projectPath: Assets\Level\level1.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Level\level1.unity.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Level\level1.unity.meta
+      projectPath: Assets\Level\level1.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map.meta
+      projectPath: Assets\Map.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile.meta
+      projectPath: Assets\Map\Tile.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\PathSelectLight.prefab
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\PathSelectLight.prefab
+      projectPath: Assets\Map\Tile\PathSelectLight.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\PathSelectLight.prefab.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\PathSelectLight.prefab.meta
+      projectPath: Assets\Map\Tile\PathSelectLight.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\SelectLight.prefab
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\SelectLight.prefab
+      projectPath: Assets\Map\Tile\SelectLight.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\SelectLight.prefab.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\SelectLight.prefab.meta
+      projectPath: Assets\Map\Tile\SelectLight.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\Tile.prefab
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\Tile.prefab
+      projectPath: Assets\Map\Tile\Tile.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\Tile.prefab.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\Tile.prefab.meta
+      projectPath: Assets\Map\Tile\Tile.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileBase.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileBase.cs
+      projectPath: Assets\Map\Tile\TileBase.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileBase.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileBase.cs.meta
+      projectPath: Assets\Map\Tile\TileBase.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileInitializer.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileInitializer.cs
+      projectPath: Assets\Map\Tile\TileInitializer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileInitializer.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileInitializer.cs.meta
+      projectPath: Assets\Map\Tile\TileInitializer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileMat.mat
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileMat.mat
+      projectPath: Assets\Map\Tile\TileMat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileMat.mat.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileMat.mat.meta
+      projectPath: Assets\Map\Tile\TileMat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TilePathFinder.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TilePathFinder.cs
+      projectPath: Assets\Map\Tile\TilePathFinder.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TilePathFinder.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TilePathFinder.cs.meta
+      projectPath: Assets\Map\Tile\TilePathFinder.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TilePathSelectLight.prefab
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TilePathSelectLight.prefab
+      projectPath: Assets\Map\Tile\TilePathSelectLight.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TilePathSelectLight.prefab.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TilePathSelectLight.prefab.meta
+      projectPath: Assets\Map\Tile\TilePathSelectLight.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileSelect.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileSelect.cs
+      projectPath: Assets\Map\Tile\TileSelect.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileSelect.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileSelect.cs.meta
+      projectPath: Assets\Map\Tile\TileSelect.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileSelectLight.prefab
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileSelectLight.prefab
+      projectPath: Assets\Map\Tile\TileSelectLight.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Map\Tile\TileSelectLight.prefab.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Map\Tile\TileSelectLight.prefab.meta
+      projectPath: Assets\Map\Tile\TileSelectLight.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\CREDITS.txt
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\CREDITS.txt
+      projectPath: Assets\Plugins\GitHub\Editor\CREDITS.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\CREDITS.txt.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\CREDITS.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\CREDITS.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\EULA.txt
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\EULA.txt
+      projectPath: Assets\Plugins\GitHub\Editor\EULA.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\EULA.txt.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\EULA.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\EULA.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Camera.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Scripts\Camera.meta
+      projectPath: Assets\Scripts\Camera.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Camera\CameraMovement.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Scripts\Camera\CameraMovement.cs
+      projectPath: Assets\Scripts\Camera\CameraMovement.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Camera\CameraMovement.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Scripts\Camera\CameraMovement.cs.meta
+      projectPath: Assets\Scripts\Camera\CameraMovement.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit.meta
+      projectPath: Assets\Unit.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\ColorController.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\ColorController.cs
+      projectPath: Assets\Unit\ColorController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\ColorController.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\ColorController.cs.meta
+      projectPath: Assets\Unit\ColorController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\Unit Mat.mat
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\Unit
+        Mat.mat
+      projectPath: Assets\Unit\Unit Mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\Unit Mat.mat.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\Unit
+        Mat.mat.meta
+      projectPath: Assets\Unit\Unit Mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\Unit Shader.shader
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\Unit
+        Shader.shader
+      projectPath: Assets\Unit\Unit Shader.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\Unit Shader.shader.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\Unit
+        Shader.shader.meta
+      projectPath: Assets\Unit\Unit Shader.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\Unit.prefab
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\Unit.prefab
+      projectPath: Assets\Unit\Unit.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\Unit.prefab.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\Unit.prefab.meta
+      projectPath: Assets\Unit\Unit.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitController.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitController.cs
+      projectPath: Assets\Unit\UnitController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitController.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitController.cs.meta
+      projectPath: Assets\Unit\UnitController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitHitBoxConroller.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitHitBoxConroller.cs
+      projectPath: Assets\Unit\UnitHitBoxConroller.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitHitBoxConroller.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitHitBoxConroller.cs.meta
+      projectPath: Assets\Unit\UnitHitBoxConroller.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitMovement.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitMovement.cs
+      projectPath: Assets\Unit\UnitMovement.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitMovement.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitMovement.cs.meta
+      projectPath: Assets\Unit\UnitMovement.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitSpriteController.cs
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitSpriteController.cs
+      projectPath: Assets\Unit\UnitSpriteController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\UnitSpriteController.cs.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\UnitSpriteController.cs.meta
+      projectPath: Assets\Unit\UnitSpriteController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\char_1.png
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\char_1.png
+      projectPath: Assets\Unit\char_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\char_1.png.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\char_1.png.meta
+      projectPath: Assets\Unit\char_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\char_v1.png
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\char_v1.png
+      projectPath: Assets\Unit\char_v1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\char_v1.png.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\char_v1.png.meta
+      projectPath: Assets\Unit\char_v1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\char_v1_fx.png
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\char_v1_fx.png
+      projectPath: Assets\Unit\char_v1_fx.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\char_v1_fx.png.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\char_v1_fx.png.meta
+      projectPath: Assets\Unit\char_v1_fx.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\transparent.png
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\transparent.png
+      projectPath: Assets\Unit\transparent.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Unit\transparent.png.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\Unit\transparent.png.meta
+      projectPath: Assets\Unit\transparent.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\level 1.unity
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\level
+        1.unity
+      projectPath: Assets\level 1.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\level 1.unity.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\level
+        1.unity.meta
+      projectPath: Assets\level 1.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\pepe.png
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\pepe.png
+      projectPath: Assets\pepe.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\pepe.png.meta
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\pepe.png.meta
+      projectPath: Assets\pepe.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018.exe
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018.exe
+      projectPath: Build_Test_18.04.2018.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\Assembly-CSharp.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\Mono.Security.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\Mono.Security.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\System.Core.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\System.Core.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\System.Core.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\System.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\System.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\System.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.Networking.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.Networking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.StandardEvents.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.StandardEvents.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.StandardEvents.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UI.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.WebModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.WebModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.WebModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.WebModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.WebModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.WebModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\UnityEngine.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\UnityEngine.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Managed\mscorlib.dll
+      projectPath: Build_Test_18.04.2018_Data\Managed\mscorlib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: Build_Test_18.04.2018_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\EmbedRuntime\mono.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\EmbedRuntime\mono.dll
+      projectPath: Build_Test_18.04.2018_Data\Mono\EmbedRuntime\mono.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\1.0\machine.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\1.0\machine.config
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\1.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\machine.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\machine.config
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\settings.map
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\settings.map
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\settings.map
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\web.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\web.config
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\2.0\web.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\browscap.ini
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\browscap.ini
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\browscap.ini
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\config
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Mono\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Mono\etc\mono\mconfig\config.xml
+      projectPath: Build_Test_18.04.2018_Data\Mono\etc\mono\mconfig\config.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Resources\unity default resources
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Resources\unity
+        default resources
+      projectPath: Build_Test_18.04.2018_Data\Resources\unity default resources
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\Resources\unity_builtin_extra
+      projectPath: Build_Test_18.04.2018_Data\Resources\unity_builtin_extra
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\app.info
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\app.info
+      projectPath: Build_Test_18.04.2018_Data\app.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\boot.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\boot.config
+      projectPath: Build_Test_18.04.2018_Data\boot.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\globalgamemanagers
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\globalgamemanagers
+      projectPath: Build_Test_18.04.2018_Data\globalgamemanagers
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\globalgamemanagers.assets
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\globalgamemanagers.assets
+      projectPath: Build_Test_18.04.2018_Data\globalgamemanagers.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\level0
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\level0
+      projectPath: Build_Test_18.04.2018_Data\level0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\level0.resS
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\level0.resS
+      projectPath: Build_Test_18.04.2018_Data\level0.resS
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_18.04.2018_Data\sharedassets0.assets
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_18.04.2018_Data\sharedassets0.assets
+      projectPath: Build_Test_18.04.2018_Data\sharedassets0.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018.exe
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018.exe
+      projectPath: Build_Test_31.03.2018.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\Assembly-CSharp.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\Mono.Security.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\Mono.Security.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\System.Core.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\System.Core.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\System.Core.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\System.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\System.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\System.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.Networking.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.Networking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.StandardEvents.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.StandardEvents.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.StandardEvents.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UI.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.WebModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.WebModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.WebModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.WebModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.WebModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.WebModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\UnityEngine.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\UnityEngine.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Managed\mscorlib.dll
+      projectPath: Build_Test_31.03.2018_Data\Managed\mscorlib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: Build_Test_31.03.2018_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\EmbedRuntime\mono.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\EmbedRuntime\mono.dll
+      projectPath: Build_Test_31.03.2018_Data\Mono\EmbedRuntime\mono.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\1.0\machine.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\1.0\machine.config
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\1.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\machine.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\machine.config
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\settings.map
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\settings.map
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\settings.map
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\web.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\web.config
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\2.0\web.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\browscap.ini
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\browscap.ini
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\browscap.ini
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\config
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Mono\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Mono\etc\mono\mconfig\config.xml
+      projectPath: Build_Test_31.03.2018_Data\Mono\etc\mono\mconfig\config.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Resources\unity default resources
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Resources\unity
+        default resources
+      projectPath: Build_Test_31.03.2018_Data\Resources\unity default resources
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\Resources\unity_builtin_extra
+      projectPath: Build_Test_31.03.2018_Data\Resources\unity_builtin_extra
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\app.info
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\app.info
+      projectPath: Build_Test_31.03.2018_Data\app.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\boot.config
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\boot.config
+      projectPath: Build_Test_31.03.2018_Data\boot.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\globalgamemanagers
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\globalgamemanagers
+      projectPath: Build_Test_31.03.2018_Data\globalgamemanagers
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\globalgamemanagers.assets
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\globalgamemanagers.assets
+      projectPath: Build_Test_31.03.2018_Data\globalgamemanagers.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\level0
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\level0
+      projectPath: Build_Test_31.03.2018_Data\level0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\level0.resS
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\level0.resS
+      projectPath: Build_Test_31.03.2018_Data\level0.resS
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Build_Test_31.03.2018_Data\sharedassets0.assets
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Build_Test_31.03.2018_Data\sharedassets0.assets
+      projectPath: Build_Test_31.03.2018_Data\sharedassets0.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: UnityPlayer.dll
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\UnityPlayer.dll
+      projectPath: UnityPlayer.dll
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: c4c72fc41e631f5c8d485dc4b72ad2f0fd05f1be
+    mergeA: 
+    mergeB: 
+    authorName: Tomahawkist
+    authorEmail: 37774480+Tomahawkist@users.noreply.github.com
+    commitEmail: 37774480+Tomahawkist@users.noreply.github.com
+    commitName: Tomahawkist
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-05-25T14:13:40.000+02:00
+    commitTimeString: 2018-05-25T14:13:40.000+02:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\Thomas\Documents\Unity-Inormatik-Q11-master\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
