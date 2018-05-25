@@ -5,7 +5,6 @@ using UnityEngine;
 
 using System.Linq;
 
-
 public class LevelInitializer : GameManagerBase
 {
     private float[,] mapHeights;
@@ -16,7 +15,9 @@ public class LevelInitializer : GameManagerBase
 
     public GameObject originalUnit;
 
-    public int units;
+    private UnitSpawnInfo[] unitSpawns;
+    private GameObject[] units;
+    private int teamCount;
 
     [Range(5, 50)]
     public int maxX = 10;
@@ -26,6 +27,15 @@ public class LevelInitializer : GameManagerBase
 
     private void Awake()
     {
+        unitSpawns = new UnitSpawnInfo[6];
+        unitSpawns[0] = new UnitSpawnInfo(1, 0);
+        unitSpawns[1] = new UnitSpawnInfo(2, 0);
+        unitSpawns[2] = new UnitSpawnInfo(3, 0);
+
+        unitSpawns[3] = new UnitSpawnInfo(10, 1);
+        unitSpawns[4] = new UnitSpawnInfo(11, 1);
+        unitSpawns[5] = new UnitSpawnInfo(12, 1);
+
         mapHeightsInitialize();
         setTilesData();
 
@@ -133,10 +143,12 @@ public class LevelInitializer : GameManagerBase
 
     private void unitsInitialize()
     {
-        GameObject.Instantiate(originalUnit, tiles[0].transform.position, new Quaternion());
-        GameObject.Instantiate(originalUnit, tiles[1].transform.position, new Quaternion());
-        GameObject.Instantiate(originalUnit, tiles[3].transform.position, new Quaternion());
-        GameObject.Instantiate(originalUnit, tiles[5].transform.position, new Quaternion());
-        GameObject.Instantiate(originalUnit, tiles[78].transform.position, new Quaternion());
+        units = new GameObject[unitSpawns.Length];
+
+        for(int i = 0; i < unitSpawns.Length; i++)
+        {
+            units[i] = GameObject.Instantiate(originalUnit, tiles[unitSpawns[i].getStartTile()].transform.position, new Quaternion());
+            units[i].GetComponent<UnitController>().setTeam(unitSpawns[i].getTeam());
+        }
     }
 }

@@ -6,6 +6,8 @@ public class UnitController : MonoBehaviour
 {
     public Card[] cards;
 
+    public int team;
+
     private int level;
     private int experiencePoints;
     private int healthPoints;
@@ -44,6 +46,8 @@ public class UnitController : MonoBehaviour
     {
         this.actionPoints += actionPoints; 
     }
+
+    public void setTeam(int team) { this.team = team; }
 
     public void addHealthPoints(int healthPoints) { this.healthPoints += healthPoints; }
 
