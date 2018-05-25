@@ -7,6 +7,8 @@ using System.Linq;
 
 public class LevelInitializer : GameManagerBase
 {
+    public TurnManager turnManager;
+
     private float[,] mapHeights;
     private float[] mapHeights1DCleaned;
     private float[] mapHeights1D;
@@ -27,6 +29,8 @@ public class LevelInitializer : GameManagerBase
 
     private void Awake()
     {
+        turnManager = GetComponent<TurnManager>();
+
         unitSpawns = new UnitSpawnInfo[6];
         unitSpawns[0] = new UnitSpawnInfo(1, 0);
         unitSpawns[1] = new UnitSpawnInfo(2, 0);
@@ -149,6 +153,9 @@ public class LevelInitializer : GameManagerBase
         {
             units[i] = GameObject.Instantiate(originalUnit, tiles[unitSpawns[i].getStartTile()].transform.position, new Quaternion());
             units[i].GetComponent<UnitController>().setTeam(unitSpawns[i].getTeam());
+            units[i].GetComponent<UnitController>().setUnitID(i);
+
+            turnManager.addUnit(units[i].GetComponent<UnitController>());
         }
     }
 }
